@@ -1,0 +1,200 @@
+#nav{
+    width: 100%;
+    height: 80px;
+    border-top: solid 10px blue;
+    border-bottom: solid 3px blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav2{
+    width: 50%;
+    height: 66px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+#contimglognav{
+    width: 3%;
+    height: 70px;
+    margin-top: 5px;
+   padding-left: 20px;
+   padding-top: 5px;
+}
+
+#logonav{
+    width: 60px;
+    height: 60px;
+}
+
+#buttonnav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height:70px;
+}
+
+.buttons{
+    width: 20%;
+    background-color: transparent;
+    border: none;
+    font-family: fantasy;
+}
+
+.buttons:hover{
+    background-color: rgb(144,215,255);
+    border-radius: 5px;
+    font-size:15px ;
+}
+
+.buttons:active{
+    background-color: pink;
+    border-radius: 5px; 
+}
+
+#mqcont{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#buttonsearch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height:30px;
+}
+
+#searchbutton{
+    width: 99%;
+    height: 30px;
+   border:  solid 2px black;
+   border-radius: 5px;
+}
+
+#iconnavcont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    height:70px;    
+}
+
+.iconnav{
+    width: 40px;
+    height: 40px;
+}
+
+.iconnav:hover{
+    width: 60px;
+    height: 60px;
+}
+
+/* Media queries starts here (nav) */
+
+@media (min-width:300px) and (max-width:580px){
+
+    #nav{
+        width: 100%;
+        height: 80px;
+        border-top: solid 10px blue;
+        border-bottom: solid 3px blue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #nav2{
+        width: 100%;
+        height: 40px;
+        
+    }
+    
+    #contimglognav{
+        width: 10%;
+        height: 40px;
+       padding-left: 5px;
+    }
+    
+    #logonav{
+        width: 30px;
+        height: 30px;
+    }
+    
+    #buttonnav{
+        width: 100%;
+        height:50px;
+        margin-left: 2px;
+    }
+        
+    
+    .buttons{
+        width: 20%;
+        background-color: transparent;
+        border: none;
+        font-family: fantasy;
+        font-size: 7px;
+    }
+    
+    .buttons:hover{
+        background-color: rgb(144,215,255);
+        border-radius: 5px;
+        font-size:15px ;
+    }
+    
+    .buttons:active{
+        background-color: pink;
+        border-radius: 5px; 
+    }
+
+    #mqcont{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    #buttonsearch{
+        width: 70%; 
+        height:30px;
+    }
+    
+    #searchbutton{
+        width: 99%;
+        height: 30px;
+       border:  solid 2px black;
+       border-radius: 5px;
+    }
+    
+    #iconnavcont{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 30%;
+        height:30px;    
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    
+    .iconnav{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .iconnav:hover{
+        width: 60px;
+        height: 60px;
+    }
+
+}
+
+
+

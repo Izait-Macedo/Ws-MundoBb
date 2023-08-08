@@ -16,7 +16,7 @@ Mundo Bebé is a website dedicated to the sale of children's books.
 ### Technology used
     - HTML     V.5
     - CSS      V.3
-    - Boostrap V.5
+    - Boostrap V.5 <!--optional>
 
 ### set up
 TBD
