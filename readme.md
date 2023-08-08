@@ -18,7 +18,6 @@ Mundo Bebé is a website dedicated to the sale of children's books.
     - CSS      V.3
     - Boostrap V.5
 
-### set yp
-
+### set up
 TBD
 # Ws-MundoBb
