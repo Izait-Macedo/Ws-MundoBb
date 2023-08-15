@@ -1,3 +1,4 @@
+
 #nav{
     width: 100%;
     height: 80px;
@@ -6,6 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 #nav2{
@@ -17,7 +19,7 @@
     align-items: center ;
 }
 
-#contimglognav{
+#contlogonav{
     width: 3%;
     height: 70px;
     margin-top: 5px;
@@ -30,33 +32,51 @@
     height: 60px;
 }
 
-#buttonnav{
+#listnav{
+    width: 90%;
+    height: 70px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    width: 80%;
-    height:70px;
 }
 
-.buttons{
-    width: 20%;
+#contnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height:40px;
+}
+
+.link{
+    color: black;
+    list-style: none;
+    text-decoration:none;
+   
+}
+
+.linav{
+    width: 25%;
     background-color: transparent;
     border: none;
     font-family: fantasy;
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;   
 }
 
-.buttons:hover{
+.linav:hover{
     background-color: rgb(144,215,255);
     border-radius: 5px;
     font-size:15px ;
 }
 
-.buttons:active{
-    background-color: pink;
+.linav:active{
+    background-color: greenyellow;
     border-radius: 5px; 
 }
 
-#mqcont{
+#MQcont{
     width: 50%;
     display: flex;
     flex-direction: row;
@@ -68,12 +88,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60%;
+    width: 50%;
     height:30px;
 }
 
 #searchbutton{
-    width: 99%;
+    width: 100%;
     height: 30px;
    border:  solid 2px black;
    border-radius: 5px;
@@ -83,13 +103,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 30%;
+    width: 40%;
     height:70px;    
 }
 
 .iconnav{
     width: 40px;
     height: 40px;
+    cursor: pointer;
 }
 
 .iconnav:hover{
@@ -97,104 +118,126 @@
     height: 60px;
 }
 
-/* Media queries starts here (nav) */
+/* Media queries starts here */
 
-@media (min-width:300px) and (max-width:580px){
+@media (min-width:400px) and ( max-width:550px){
 
-    #nav{
+/*Media queries Nav*/
+*{
+     margin: 0;
+    padding: 0;
+}
+ #nav{   
         width: 100%;
         height: 80px;
         border-top: solid 10px blue;
         border-bottom: solid 3px blue;
+        background-color: white;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;       
     }
-    
+        
     #nav2{
         width: 100%;
         height: 40px;
+        display: flex;
+        justify-content: center;
+    }
         
-    }
-    
-    #contimglognav{
-        width: 10%;
+    #contlogonav{
+        width: 5%;
         height: 40px;
-       padding-left: 5px;
     }
-    
+        
     #logonav{
         width: 30px;
         height: 30px;
     }
     
-    #buttonnav{
-        width: 100%;
-        height:50px;
-        margin-left: 2px;
+    #listnav{
+        width: 100%; 
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
         
+    #contnav{
+        width: 100%;
+        height:20px;
+        padding-left: 1px;
+    }
     
-    .buttons{
+    .link{
+        color: black;
+        list-style: none;
+        text-decoration:none;
+    }
+            
+    .linav{
         width: 20%;
         background-color: transparent;
         border: none;
         font-family: fantasy;
-        font-size: 7px;
+        font-size: 10px;
+        cursor: pointer;
+            
     }
-    
-    .buttons:hover{
+        
+    .linav:hover{
         background-color: rgb(144,215,255);
         border-radius: 5px;
         font-size:15px ;
     }
-    
-    .buttons:active{
-        background-color: pink;
+        
+    .linav:active{
+        background-color:greenyellow;
         border-radius: 5px; 
     }
-
-    #mqcont{
+    
+    #MQcont{
         width: 100%;
         height: 40px;
         display: flex;
         flex-direction: row;
-        align-items: center;
+        justify-content:start;
     }
-    
+        
     #buttonsearch{
         width: 70%; 
         height:30px;
+        margin-left: 4px;
     }
-    
+        
     #searchbutton{
-        width: 99%;
+        width: 100%;
         height: 30px;
-       border:  solid 2px black;
-       border-radius: 5px;
-    }
-    
+        border:  solid 2px black;
+        border-radius: 5px;
+    } 
+        
     #iconnavcont{
         display: flex;
         align-items: center;
         justify-content: space-between;
         width: 30%;
-        height:30px;    
-        margin-left: 2px;
-        margin-right: 2px;
+        height:30px;
+        margin-left: 15px;
+        margin-right: 3px;
     }
-    
+        
     .iconnav{
         width: 20px;
         height: 20px;
+        cursor: pointer;
     }
-    
+        
     .iconnav:hover{
-        width: 60px;
-        height: 60px;
+        width: 5px;
+        height: 5px;
     }
-
 }
-
-
-
