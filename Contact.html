@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mundo Bebé</title>
-    <link rel="stylesheet" type="text/css" href="Mundobb.css">
+    <link rel="stylesheet" type="text/css" href="Contact.css">
 </head>
 <body>
     <header>
@@ -15,7 +16,7 @@
                 </div>
                 <div id="listnav">
                     <ul id="contnav">
-                        <li class="linav"><a class="link" href="HomeMb.html">Home</a></li>
+                        <li class="linav" ><a class="link" href="HomeMb.html">Home</a></li>
                         <li class="linav"><a class="link" href="Bestseller.html">Best Seller</a></li>
                         <li class="linav">Blog</li>
                         <li class="linav"><a class="link" href="Categories.html">Categories</a></li>
@@ -28,7 +29,7 @@
                     <input id="searchbutton" type="search" placeholder="What are you looking for?..." />
                 </div>
                 <div id="iconnavcont">
-                    <img class="iconnav" src="./Img/imgNav/language_9494741.png""/>
+                    <img class="iconnav" src="./img/imgNav/language_9494741.png" />
                     <img class="iconnav" src="img/imgNav/shopping-cart_1404364.png" />
                     <img class="iconnav" src="./img/imgNav/locksmith_4994907.png" />
                     <img class="iconnav" src="./img/imgNav/user_6639474.png" />
@@ -36,19 +37,34 @@
             </div>
         </nav>
     </header>
-    <main id="contmain">
-            <div id="conttitle">
-                <div id="title">WELCOME!</div>
-                <div id="subtitle">Mundo Bebé!</div><br>
-                <div Id="text"> In Mundo Bebé we know how important your child's 
-                    learning is, reinforcing it with books that make learning more
-                    fun is essential in their growth stage. That is why we have the
-                    best books which were specially designed for their age.
-                </div>
-                <div id="Imgmain">
-                    <img id="imgindex" src="./img/imgbody/childrens.jpg" />
-                </div>
+    <main id="main">
+        <div id="divform">
+            <div id="divtitle"> <h1>Contact Form</h1></div>
+            <div>
+                <p>Please fill your information</p>
             </div>
+            <form id="form">
+                <label>Email</label>
+                <input class=" input" placeholder="email"/>
+                <div>
+                    <label>Name</label>
+                    <input class=" input" placeholder="name"/> <br>
+                    <label>Last name</label>
+                    <input class=" input" placeholder="last name"/><br>
+                    <label>Phone</label>
+                    <input class=" input" placeholder="phone"/><br>
+                    <label>Messaje</label>
+                    <input class=" input" placeholder="titlemessaje"/>
+                    <textarea></textarea><br>
+                    <input type="submit"/>
+
+                </div>
+            </form>
+        </div>
+        <div id="divlogo">
+            <img id="imgform" src="./img/imgform/LogoMb.png"/>
+        </div>
+         
     </main>
     <footer id="footer">
             <ul id="contfooter">
@@ -64,6 +80,7 @@
                 <img class="iconfooter" src="./img/imgfooter/youtube_1384060.png"/>
             </div>
     </footer>
-    
+
 </body>
-</html>
+
+</html> 
