@@ -115,15 +115,12 @@
     width: 60px;
     height: 60px;
 }
-
 /* links */
-
 a{
     text-decoration: none;
     color: black;
 }
 /* Here starts footer */
-
 #footer {
     border-bottom: solid 2px gray;
     height: 20px;
@@ -188,8 +185,8 @@ a{
 .contact {
 
 }
-@media (max-width:550px) {
 
+@media (max-width:550px) {
 /*Media queries Nav*/
 * {
     margin: 0;
@@ -254,7 +251,6 @@ a{
     font-family: fantasy;
     font-size: 12px;
     cursor: pointer;
-
 }
 
 .linav:hover {
@@ -309,9 +305,7 @@ a{
     width: 25px;
     height: 25px;
 }
-
 /* Media queries Footer starts here */
-
 #footer {
     width: 100%;
     height: 10%;

@@ -1,5 +1,4 @@
 /* here starts main Best Seller */
-
 #mainbestseller {
     width: 100%;
     height: 470px;
@@ -55,6 +54,7 @@
     width: 60%;
     height: 70%;
     padding-left: 50px;
+    cursor: pointer;
 }
 
 .conticon {
@@ -93,15 +93,11 @@
 }
 
 @media (max-width:550px) {
-
-/*Media queries Nav*/
 * {
     margin: 0;
     padding: 0;
 }
-
 /* Media queries Best Seller  starts here */
-
 #mainbestseller {
     width: 100%;
     height: 100%;
