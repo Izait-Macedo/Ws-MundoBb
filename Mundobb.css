@@ -47,71 +47,71 @@
      height: 220px;
  }
 
-@media (max-width:550px) {
+ @media (max-width:550px) {
 
-/*Media queries Nav*/
-* {
-    margin: 0;
-    padding: 0;
-}
+     /*Media queries Nav*/
+     * {
+         margin: 0;
+         padding: 0;
+     }
 
-/* Media Queries main starts here*/
-#contmain {
-    width: 100%;
-    height: 890px;
-    background-image: url(./img/imgbody/Body.png);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+     /* Media Queries main starts here*/
+     #contmain {
+         width: 100%;
+         height: 890px;
+         background-image: url(./img/imgbody/Body.png);
+         background-size: cover;
+         background-position: center;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
 
-#conttitle {
-    width: 100%;
-    height: 100%;
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
+     #conttitle {
+         width: 100%;
+         height: 100%;
+         font-size: 30px;
+         font-family: 'Times New Roman', Times, serif;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         text-align: center;
+     }
 
-#title {
-    width: 100%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: darkblue;
-    margin-top: 25%;
-}
+     #title {
+         width: 100%;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         color: darkblue;
+         margin-top: 25%;
+     }
 
-#subtitle {
-    width: 100%;
-    height: 2%;
-    font-size: 90%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: blue;
-}
+     #subtitle {
+         width: 100%;
+         height: 2%;
+         font-size: 90%;
+         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         color: blue;
+     }
 
-#text {
-    width: 90%;
-    height: 20%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 23px;
-}
+     #text {
+         width: 90%;
+         height: 20%;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         font-size: 23px;
+     }
 
-#Imgmain {
-    width: 90%;
-    height: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 20px;
-}
+     #Imgmain {
+         width: 90%;
+         height: 30%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin-left: 20px;
+     }
 
-#imgindex {
-    width: 60%;
-    height: 80%;
-}
+     #imgindex {
+         width: 60%;
+         height: 80%;
+     }
 
-}
+ }
