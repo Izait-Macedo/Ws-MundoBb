@@ -6,69 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mundo Bebé</title>
     <link rel="stylesheet" type="text/css" href="Contact.css">
+    <link rel="stylesheet" type="text/css" href="Sharedclasess.css">
 </head>
 <body>
     <header>
-        <nav id="nav">
-            <div id="nav2">
-                <div id="contlogonav">
-                    <a href="HomeMb.html"><img id="logonav" src="./img/imgNav/LogoMb.png"/></a>
+            <nav id="nav">
+                <div id="nav2">
+                    <div id="contlogonav">
+                        <a href="HomeMb.html"><img id="logonav" src="./img/imgNav/LogoMb.png"/></a>
+                    </div>
+                    <div id="listnav">
+                        <ul id="contnav">
+                            <li class="linav"><a class="link" href="HomeMb.html">Home</a></li>
+                            <li class="linav"><a class="link" href="Bestseller.html">Best Seller</a></li>
+                            <li class="linav">Blog</li>
+                            <li class="linav"><a class="link" href="Categories.html">Categories</a></li>
+                            <li class="linav">Favorites</li>
+                        </ul>
+                    </div>
                 </div>
-                <div id="listnav">
-                    <ul id="contnav">
-                        <li class="linav" ><a class="link" href="HomeMb.html">Home</a></li>
-                        <li class="linav"><a class="link" href="Bestseller.html">Best Seller</a></li>
-                        <li class="linav">Blog</li>
-                        <li class="linav"><a class="link" href="Categories.html">Categories</a></li>
-                        <li class="linav">Favorites</li>
-                    </ul>
+                <div id="MQcont"> <!--this div is for Media  Queries-->
+                    <div id="buttonsearch">
+                        <input id="searchbutton" type="search" placeholder="  What are you looking for?..."/>
+                    </div>
+                    <div id="iconnavcont">
+                        <img class="iconnav" src="./Img/imgNav/language_9494741.png""/>
+                        <img class="iconnav" src="img/imgNav/shopping-cart_1404364.png" />
+                        <img class="iconnav" src="./img/imgNav/locksmith_4994907.png" />
+                        <img class="iconnav" src="./img/imgNav/user_6639474.png" />
+                    </div>
                 </div>
-            </div>
-            <div id="MQcont"> <!--this div is for Media  Queries-->
-                <div id="buttonsearch">
-                    <input id="searchbutton" type="search" placeholder="What are you looking for?..." />
-                </div>
-                <div id="iconnavcont">
-                    <img class="iconnav" src="./img/imgNav/language_9494741.png" />
-                    <img class="iconnav" src="img/imgNav/shopping-cart_1404364.png" />
-                    <img class="iconnav" src="./img/imgNav/locksmith_4994907.png" />
-                    <img class="iconnav" src="./img/imgNav/user_6639474.png" />
-                </div>
-            </div>
-        </nav>
+            </nav>
     </header>
     <main id="main">
-        <div id="divform">
-            <div id="divtitle"> <h1>Contact Form</h1></div>
-            <div>
-                <p>Please fill your information</p>
+        <div class="divform">
+            <div class="divtitle">
+                <h1>Contact Form</h1>
+                <h5>Please fill your information</h5>
             </div>
-            <form id="form">
-                <label>Email</label>
-                <input class=" input" placeholder="email"/>
-                <div>
-                    <label>Name</label>
-                    <input class=" input" placeholder="name"/> <br>
-                    <label>Last name</label>
-                    <input class=" input" placeholder="last name"/><br>
-                    <label>Phone</label>
-                    <input class=" input" placeholder="phone"/><br>
-                    <label>Messaje</label>
-                    <input class=" input" placeholder="titlemessaje"/>
-                    <textarea></textarea><br>
-                    <input type="submit"/>
-
+            <div class="contlabel">
+                <label for="Name">Name</label>
+                <input type="text" id="Name" class="input" name="Name"placeholder=" Name"/>
+                <label for="Last Name">Last Name</label>
+                <input type="text" id="Last Name" class="input" name="Last Name" placeholder=" Last Name"/>
+                <label for="Email">Email</label>
+                <input type="email" id="Email" class="input" name="Email" placeholder=" Email"/>
+                <label for="Phone">Phone</label>
+                <input type="number" id="Phone" class="input" name="Phone" placeholder=" Phone"/>
+            </div>
+            <div class="Gender">
+                <label for="Male">Male</label>
+                <input type="radio" id="Male" class="input" name="Male"/>
+                <label for="Male">Female</label>
+                <input type="radio" id="Male" class="input" name="Male"/>
+            </div>
+            <br>
+            <div class="contlabel">
+                <label for="Coment">Coment</label><br>
+                <textarea name="Coment" id="Coment"></textarea><br>
+                <div class="divbutton">
+                    <button type="submit">Send</button>
+                    <button type="reset">Clear</button>
                 </div>
-            </form>
+            </div>
         </div>
-        <div id="divlogo">
+        <div class="divlogo">
             <img id="imgform" src="./img/imgform/LogoMb.png"/>
         </div>
-         
     </main>
     <footer id="footer">
             <ul id="contfooter">
-                <li class="listfooter"><a href="Contact.html">Contac</a></li>
+                <li class="listfooter"><a href="Contact.html">Contact</a></li>
                 <li class="listfooter">About Us</li>
                 <li class="listfooter">Sucribtions</li>  
                 <li class="listfooter">Frequent questions</li>
