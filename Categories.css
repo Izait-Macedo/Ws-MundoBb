@@ -1,31 +1,32 @@
 /* Here starts main categories*/
 
-#main{
+#main {
     width: 100%;
     height: 470px;
 }
 
-#title{
+#title {
     text-align: center;
     color: orange;
     font-size: 50px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#contencarousel{
+#contencarousel {
     width: 100%;
     margin-top: 30px;
     height: 350px;
     overflow: hidden;
 }
-.carousel{
+
+.carousel {
     width: 100%;
     height: 100%;
     position: relative;
     cursor: pointer;
 }
 
-.imgcarousel{
+.imgcarousel {
     height: 100%;
     width: 100%;
     display: flex;
@@ -33,7 +34,7 @@
     justify-content: center;
 }
 
-.directioncarousel{
+.directioncarousel {
     position: absolute;
     top: 0;
     height: 100%;
@@ -43,7 +44,7 @@
     justify-content: space-between;
 }
 
-#div{
+#div {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,33 +53,33 @@
 }
 
 
-.arrow{
+.arrow {
     width: 100%;
     height: 100%;
 }
 
-#girlcategorie{
+#girlcategorie {
     width: 30%;
     height: 70%;
     border-radius: 8px;
     background-color: rgb(247, 57, 202);
 }
 
-#boycategorie{
+#boycategorie {
     width: 30%;
     height: 70%;
     border-radius: 8px;
     background-color: rgb(72, 72, 241);
 }
 
-#childrencategorie{
+#childrencategorie {
     width: 30%;
     height: 70%;
     border-radius: 8px;
     background-color: rgb(60, 239, 57);
 }
 
-.contcategorie{
+.contcategorie {
     width: 100%;
     height: 50%;
     display: flex;
@@ -87,13 +88,13 @@
     align-items: center;
 }
 
-.stories{
+.stories {
     font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: yellow;
 }
 
-.contstories{
+.contstories {
     width: 100%;
     height: 50%;
     display: flex;
@@ -101,139 +102,142 @@
     justify-content: center;
 }
 
-.namestories{
-    font-size:90px;
+.namestories {
+    font-size: 90px;
     color: white;
 }
 
-.imgcategories{
+.imgcategories {
     width: 30%;
     height: 90%;
     border-radius: 5px;
 }
 
-@media ( max-width:550px){
-/*Media queries Nav*/
-*{
-    margin: 0;
-    padding: 0;
-}
-/* Here media queries starts main categories*/
-#main{
-    width: 100%;
-    height: 470px;
-}
+@media (max-width:550px) {
 
-#title{
-    text-align: center;
-    color: orange;
-    font-size: 50px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-top: 50%;
-}
+    /*Media queries Nav*/
+    * {
+        margin: 0;
+        padding: 0;
+    }
 
-#contencarousel{
-    width: 100%;
-    margin-top: 30px;
-    height: 350px;
-    overflow: hidden;
-}
-.carousel{
-    width: 100%;
-    height: 100%;
-    position: relative;
+    /* Here media queries starts main categories*/
+    #main {
+        width: 100%;
+        height: 470px;
+    }
 
-}
+    #title {
+        text-align: center;
+        color: orange;
+        font-size: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-top: 50%;
+    }
 
-.imgcarousel{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    #contencarousel {
+        width: 100%;
+        margin-top: 30px;
+        height: 350px;
+        overflow: hidden;
+    }
 
-.directioncarousel{
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+    .carousel {
+        width: 100%;
+        height: 100%;
+        position: relative;
 
-#div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 30px;
-}
+    }
 
-a{
-    text-decoration: none;
-}
+    .imgcarousel {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-.arrow{
-    width: 100%;
-    height: 100%;
-}
+    .directioncarousel {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-#girlcategorie{
-    width: 50%;
-    height: 70%;
-    border-radius: 8px;
-    background-color: rgb(247, 57, 202);
-    margin: 8px;
-}
+    #div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 30px;
+    }
 
-#boycategorie{
-    width: 50%;
-    height: 70%;
-    border-radius: 8px;
-    background-color: rgb(72, 72, 241);
-}
+    a {
+        text-decoration: none;
+    }
 
-#childrencategorie{
-    width: 50%;
-    height: 70%;
-    border-radius: 8px;
-    background-color: rgb(60, 239, 57);
-}
+    .arrow {
+        width: 100%;
+        height: 100%;
+    }
 
-.contcategorie{
-    width: 100%;
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 8px;
-}
+    #girlcategorie {
+        width: 50%;
+        height: 70%;
+        border-radius: 8px;
+        background-color: rgb(247, 57, 202);
+        margin: 8px;
+    }
 
-.stories{
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: yellow;
-    margin-top: 4px;
-}
+    #boycategorie {
+        width: 50%;
+        height: 70%;
+        border-radius: 8px;
+        background-color: rgb(72, 72, 241);
+    }
 
-.contstories{
-    width: 100%;
-    height: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    #childrencategorie {
+        width: 50%;
+        height: 70%;
+        border-radius: 8px;
+        background-color: rgb(60, 239, 57);
+    }
 
-.namestories{
-    font-size:50px;
-    color: white;
-}
+    .contcategorie {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 8px;
+    }
 
-.imgcategories{
-    width: 50%;
-    height: 70%;
-    border-radius: 5px;
-}
+    .stories {
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: yellow;
+        margin-top: 4px;
+    }
+
+    .contstories {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .namestories {
+        font-size: 50px;
+        color: white;
+    }
+
+    .imgcategories {
+        width: 50%;
+        height: 70%;
+        border-radius: 5px;
+    }
 }
