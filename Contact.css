@@ -78,16 +78,18 @@ button {
     margin-top: 5px;
     border-radius: 5px;
     border-color: transparent;
+    text-align: center;
 }
 
 button:hover {
-    width: 30px;
+    width: 40px;
     height: 20px;
     font-size: 12px;
     text-align: center;
 }
 
 button:active {
+    width: 20px;
     background-color: rgb(67, 190, 243);
 }
 
