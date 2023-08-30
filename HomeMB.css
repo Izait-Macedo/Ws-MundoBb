@@ -83,7 +83,7 @@
          width: 100%;
          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
          color: darkblue;
-         margin-top: 25%;
+         margin-top: 10%;
      }
 
      #subtitle {
@@ -96,7 +96,7 @@
 
      #text {
          width: 90%;
-         height: 20%;
+         height: 30%;
          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
          font-size: 23px;
      }

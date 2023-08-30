@@ -52,10 +52,16 @@
 }
 
 .imgbs {
-    width: 60%;
+    width: 55%;
     height: 70%;
     padding-left: 50px;
     cursor: pointer;
+}
+
+.imgbs:hover {
+    width: 57%;
+    height: 73%;
+    transition: 0.8s;
 }
 
 .conticon {
