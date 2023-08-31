@@ -1,0 +1,244 @@
+/* Here starts main categories*/
+
+#main {
+    width: 100%;
+    height: 570px;
+}
+
+#title {
+    text-align: center;
+    color: orange;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 110px;
+}
+
+#contencarousel {
+    width: 100%;
+    margin-top: 30px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.carousel {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.imgcarousel {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.directioncarousel {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+}
+
+
+.arrow {
+    width: 100%;
+    height: 100%;
+}
+
+#girlcategorie {
+    width: 30%;
+    height: 70%;
+    border-radius: 8px;
+    background-color: rgb(247, 57, 202);
+}
+
+#boycategorie {
+    width: 30%;
+    height: 70%;
+    border-radius: 8px;
+    background-color: rgb(72, 72, 241);
+}
+
+#childrencategorie {
+    width: 30%;
+    height: 70%;
+    border-radius: 8px;
+    background-color: rgb(60, 239, 57);
+}
+
+.contcategorie {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stories {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: yellow;
+}
+
+.contstories {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.namestories {
+    font-size: 90px;
+    color: white;
+}
+
+.imgcategories {
+    width: 30%;
+    height: 90%;
+    border-radius: 5px;
+}
+
+@media (max-width:550px) {
+
+    /*Media queries Nav*/
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Here media queries starts main categories*/
+    #main {
+        width: 100%;
+        height: 470px;
+    }
+
+    #title {
+        text-align: center;
+        color: orange;
+        font-size: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-top: 25%;
+    }
+
+    #contencarousel {
+        width: 100%;
+        margin-top: 30px;
+        height: 350px;
+        overflow: hidden;
+    }
+
+    .carousel {
+        width: 100%;
+        height: 100%;
+        position: relative;
+
+    }
+
+    .imgcarousel {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .directioncarousel {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 30px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .arrow {
+        width: 100%;
+        height: 100%;
+    }
+
+    #girlcategorie {
+        width: 50%;
+        height: 70%;
+        border-radius: 8px;
+        background-color: rgb(247, 57, 202);
+        margin: 8px;
+    }
+
+    #boycategorie {
+        width: 50%;
+        height: 70%;
+        border-radius: 8px;
+        background-color: rgb(72, 72, 241);
+    }
+
+    #childrencategorie {
+        width: 50%;
+        height: 70%;
+        border-radius: 8px;
+        background-color: rgb(60, 239, 57);
+    }
+
+    .contcategorie {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 8px;
+    }
+
+    .stories {
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: yellow;
+        margin-top: 4px;
+    }
+
+    .contstories {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .namestories {
+        font-size: 50px;
+        color: white;
+    }
+
+    .imgcategories {
+        width: 50%;
+        height: 70%;
+        border-radius: 5px;
+    }
+}
